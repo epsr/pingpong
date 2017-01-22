@@ -6,9 +6,7 @@
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
   	<servlet-name>pingServlet</servlet-name>
-  	<display-name>pingServlet</display-name>
-  	<description></description>
-  	<servlet-class>pingServlet</servlet-class>
+  	<servlet-class>com.lwh.pingpong.pingServlet</servlet-class>
   </servlet>
   <servlet-mapping>
   	<servlet-name>pingServlet</servlet-name>
