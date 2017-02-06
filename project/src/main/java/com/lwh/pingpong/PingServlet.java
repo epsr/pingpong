@@ -9,9 +9,9 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 /**
- * Servlet implementation class pingServlet
+ * Servlet implementation class PingServlet
  */
-public class pingServlet extends HttpServlet {
+public class PingServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	/**

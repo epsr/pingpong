@@ -11,14 +11,14 @@ import org.apache.http.util.EntityUtils;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class pingServletTest {
+public class PingServletTest {
 	private final String input = "ping";
 
 	@Test
 	public void testdoGet() throws ClientProtocolException, IOException {
 		CloseableHttpClient client = HttpClients.createDefault();
 		HttpGet httpGet = new HttpGet(
-				"http://localhost:9090/pingpong/pingServlet?string_input="
+				"http://localhost:9090/pingpong-project/PingServlet?string_input="
 						+ input);
 		CloseableHttpResponse response = client.execute(httpGet);
 		String result = EntityUtils.toString(response.getEntity());
